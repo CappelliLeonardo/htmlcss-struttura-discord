@@ -97,13 +97,18 @@ html{
     width: 60%;
     background-color: green;
 }
+.section.second, .last-section{
+    background-color: gray;
+}
 /* FOOTER  */
 .footer-top{
-    background-color: grey;
+    background-color: rgb(37, 36, 36);
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
+    margin-bottom: 1px;
+    padding-bottom: 20px;
 }
 .background-footer{
     display: flex;
@@ -126,6 +131,46 @@ html{
 }
 
 .box-acquamarine > div{
-    border: 1px solid black;
+    border: 1px dashed black;
     width: 25%;
 }
+
+
+
+.footer-bottom{
+    width: 100%;
+    background-color: rgb(37, 36, 36);
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.nav-footer{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: aquamarine;
+}
+.box-logo-orange, .box-button-orange{
+    background-color: orange;
+    border: 1px dashed black;
+    padding: 2px;
+}
+
+/* .footer-bottom{
+    max-width: 100%;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+}
+.nav-footer{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: orange;
+    width: 80%;
+} */
